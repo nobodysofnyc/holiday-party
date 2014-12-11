@@ -1,0 +1,18 @@
+html { 
+  background: url(images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.noise {
+  background-image: url(images/noise.png);
+  background-repeat: repeat;
+}
+
+.text {
+  width: 792px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
