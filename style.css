@@ -1,5 +1,5 @@
 html { 
-  background: url(images/background.png) no-repeat center center fixed; 
+  background: url(images/background.png) no-repeat center bottom fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,7 +12,8 @@ html {
 }
 
 .text {
-  width: 792px;
+  width: 829px;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 13%;
+  padding-right: 18px;
 }
