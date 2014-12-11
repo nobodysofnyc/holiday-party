@@ -1,19 +1,25 @@
 html { 
-  background: url(images/background.png) no-repeat center bottom fixed; 
+  background: url('images/background.png') no-repeat center bottom fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.noise {
-  background-image: url(images/noise.png);
-  background-repeat: repeat;
-}
-
 .text {
+  background: url('images/text.png') no-repeat;
+  background-size: 829px 335px;
   width: 829px;
+  height: 335px;
   margin: 0 auto;
   margin-top: 13%;
   padding-right: 18px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+  .text {
+    background: url('images/text_2x.png') no-repeat;
+    background-size: 829px 335px;
+  }
 }
